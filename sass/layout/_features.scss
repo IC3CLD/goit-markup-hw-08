@@ -1,0 +1,134 @@
+.features {
+	padding-top: 60px;
+
+	.list {
+
+		@media screen and (min-width:768px) {
+			display: flex;
+		    flex-wrap: wrap;
+		}
+		
+	}
+
+	.feature-item {
+		max-width: 450px;
+		
+
+		@media screen and (max-width:767px) {
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+			
+		}
+
+		@media screen and (min-width:768px) and (max-width:1199px) {
+			width: 354px;
+			&:nth-child(odd) {
+				margin-right: 30px;
+			}
+			&:not(:nth-last-child(-n+2)) {
+				margin-bottom: 30px;
+			}
+			
+		}
+
+		@media screen and (min-width:1200px) {
+			width: 270px;
+			&:not(:last-child) {
+				margin-right: 30px;
+			}
+		}
+	}
+
+
+	@media screen and (min-width:1200px) {
+		padding-top: 94px;
+	}
+
+	
+
+	
+
+	.attention::before {
+		display: block;
+		content: "";
+		background-image: url(../img/antenna_1.svg);
+		height: 120px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+
+	.punctuality::before {
+		display: block;
+		content: "";
+		background-image: url(../img/clock_1.svg);
+		height: 120px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+
+	.planning::before {
+		display: block;
+		content: "";
+		background-image: url(../img/diagram_1.svg);
+		height: 120px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+
+	.technologies::before {
+		display: block;
+		content: "";
+		background-image: url(../img/astronaut_1.svg);
+		height: 120px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+	}
+
+	
+
+	.img-conteiner {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+		background-color: #f5f4fa;
+	}
+
+	.sub-title {
+		text-align: center;
+		margin-bottom: 10px;
+
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		text-transform: uppercase;
+
+		@media screen and (min-width:768px) {
+			text-align: start;
+		}
+	}
+
+	.post {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+		color: $secondary-text-color;
+	}
+
+	
+}

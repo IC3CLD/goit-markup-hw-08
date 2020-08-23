@@ -1,0 +1,96 @@
+.input-conteiner-join {
+
+	@media screen and (max-width:1199px) {
+		margin-bottom: 60px;
+	}
+
+	@media screen and (min-width:768px) and (max-width:1199px) {
+		margin-left: auto;
+	}
+
+	@media screen and (min-width:1200px) {
+		display: block;
+	    width: 300px;
+	}
+	
+}
+
+.input-container-subscribe {
+
+	@media screen and (min-width:1200px) {
+		margin-left: auto;
+	}
+}
+.subscribe-form {
+
+	@media screen and (min-width:1200px) {
+		display: flex;
+	    flex-wrap: nowrap;
+	}
+	
+}
+
+.subscribe-input {
+	display: block;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	outline: none;
+	;
+	width: 100%;
+	height: 50px;
+	background-color: $footer-background-color;
+	margin-right: 12px;
+	padding-left: 16px;
+	margin-bottom: 20px;
+
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: $text-white-color;
+
+	@media screen and (min-width:768px) and (max-width:1199px) {
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media screen and (min-width:1200px){
+		width: 358px
+	}
+
+	&::placeholder {
+		font-family: Roboto;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 1.25;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.03em;
+
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	
+}
+
+.subscribe-btn {
+	display: inline-flex;
+
+	&:hover {
+		fill: $acent-text-color;
+	}
+
+	@media screen and (min-width:1200px) {
+		width: 200px;
+		height: 50px;
+	}
+}
+
+.subscribe-btn-svg {
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+	fill: currentColor;
+}

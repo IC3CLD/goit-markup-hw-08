@@ -1,0 +1,75 @@
+.filters-projects {
+	padding-top: 60px;
+	margin-bottom: 60px;
+
+
+	@media screen and (min-width:1200px) {
+		padding-top: 94px;
+		margin-bottom: 94px;
+	}
+}
+
+.filters {
+	padding-bottom: 40px;
+
+	@media screen and (min-width:768px) {
+		padding-bottom: 30px;
+	}
+
+	@media screen and (min-width:1200px) {
+		padding-bottom: 50px;
+	}
+
+}
+
+	.list {
+		display: flex;
+		
+		flex-wrap: wrap;
+
+		@media screen and (min-width:768px) {
+			justify-content: center;
+		}
+	}
+
+	.item {
+
+		&:not(:last-child) {
+			margin-right: 8px;
+		}
+
+		@media screen and (max-width:767px) {
+			&:nth-child(1){
+				margin-right: 8px;
+			}
+			&:nth-child(2){
+				margin-right: 8px;
+			}
+			&:nth-child(4){
+				margin-right: 8px;
+			}
+	
+			&:not(:nth-last-child(-n+2)) {
+				margin-bottom: 15px;
+			}
+
+	}
+
+	.button {
+		text-align: center;
+		color: $main-text-color;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.62;
+
+		background-color: #f5f4fa;
+
+		&:hover,
+		&:focus {
+			color: $text-white-color;
+			background-color: $acent-text-color;
+			transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
+}
+

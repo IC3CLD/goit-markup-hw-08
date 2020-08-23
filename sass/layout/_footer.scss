@@ -1,0 +1,122 @@
+.footer {
+	background-color: $footer-background-color;
+
+	.conteiners {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		text-align: center;
+
+		@media screen and (min-width:1200px) {
+			display: flex;
+			text-align: start;
+		}
+		
+	}
+
+	.footer-join {
+		@media screen and (min-width:768px) {
+			display: flex;
+		}
+	}
+
+	.input-conteiner {
+
+		@media screen and (max-width:1199px) {
+			margin-bottom: 60px;
+		}
+
+		@media screen and (min-width:1200px) {
+			width: 300px;
+			display: block;
+		}
+		// display: block;
+		// width: 300px;
+	}
+
+	.logo {
+		display: block;
+		margin-bottom: 20px;
+
+		color: $text-white-color;
+		text-decoration: none;
+	}
+
+	.contact {
+		display: block;
+		margin-bottom: 9px;
+
+		color: $secondary-text-color;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+		text-decoration: none;
+	}
+
+	.contact:last-child {
+		margin-bottom: 0px;
+	}
+
+	.adress {
+		color: $text-white-color;
+	}
+
+	.connect {
+		display: block;
+		margin-bottom: 20px;
+		padding-top: 10px;
+
+		color: $text-white-color;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.43;
+		text-transform: uppercase;
+	}
+
+	.socialnetwork-list {
+		display: flex;
+		width: 206px;
+		
+		justify-content: space-between;
+
+		@media screen and (max-width:1200px) {
+			margin: auto;
+		}
+
+		
+	}
+
+	.social-icon-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+
+		background-color: $footer-socials-color;
+		color: $text-white-color;
+
+		&:hover,
+		&:focus {
+			background-color: $acent-text-color;
+			transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
+
+	@media screen and (min-width:1200px) {
+        .social-icon:not(:last-child) {
+		margin-right: 10px;
+	}
+	}
+
+	
+}
+
+.footer .social-links:hover,
+.footer .social-links:focus {
+	background-color: $acent-text-color;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
