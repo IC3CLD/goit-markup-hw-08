@@ -1,5 +1,6 @@
 .features {
 	padding-top: 60px;
+	padding-bottom: 60px;
 
 	.list {
 
@@ -43,6 +44,7 @@
 
 	@media screen and (min-width:1200px) {
 		padding-top: 94px;
+		padding-bottom: 94px;
 	}
 
 	
@@ -113,6 +115,7 @@
 		text-align: center;
 		margin-bottom: 10px;
 
+		font-family: Roboto;
 		font-weight: 700;
 		font-size: 14px;
 		line-height: 1.14;
@@ -125,8 +128,8 @@
 
 	.post {
 		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
+		// font-size: 14px;
+		// line-height: 1.71;
 		color: $secondary-text-color;
 	}
 

@@ -9,12 +9,7 @@
 
 	.title {
 		text-align: center;
-		font-size: 28px;
-		line-height: 1.18;
-
 		margin-bottom: 30px;
-
-		// margin-bottom: 50px;
 	}
 
 	.list {
@@ -67,7 +62,7 @@
 		display: flex;
 		justify-content: center;
 		height: 90px;
-		color: $secondary-text-color;
+		color: $clients-logo-color;
 
 		&:hover,
 		&:focus {

@@ -13,6 +13,8 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 body.modal-open {
@@ -347,6 +349,7 @@ summary {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.66;
+  letter-spacing: 0.03em;
 }
 
 .logo > span {
@@ -378,6 +381,7 @@ summary {
   outline: none;
   color: #ffffff;
   background-color: #2196f3;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -391,11 +395,18 @@ summary {
 }
 
 .title {
+  font-size: 28px;
+  line-height: 1.18;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }
 
 .current-page {
@@ -441,7 +452,6 @@ summary {
 
 .site-nav .logo {
   color: #212121;
-  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
@@ -465,6 +475,7 @@ summary {
 
 .site-nav .link {
   display: inline-block;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -474,8 +485,14 @@ summary {
 
 @media screen and (min-width: 768px) {
   .site-nav .link {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.14;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-nav .link {
+    font-size: 14px;
   }
 }
 
@@ -696,11 +713,12 @@ summary {
 }
 
 .hero .title {
-  max-width: 696px;
+  max-width: 360px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
   color: #ffffff;
+  font-family: Roboto;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -712,12 +730,14 @@ summary {
 @media screen and (min-width: 1200px) {
   .hero .title {
     font-size: 44px;
-    line-height: 1.39;
+    line-height: 1.36;
+    max-width: 696px;
   }
 }
 
 .features {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -761,6 +781,7 @@ summary {
 @media screen and (min-width: 1200px) {
   .features {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -824,6 +845,7 @@ summary {
 .features .sub-title {
   text-align: center;
   margin-bottom: 10px;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -838,14 +860,11 @@ summary {
 
 .features .post {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   color: #757575;
 }
 
 .work {
   display: none;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -1054,8 +1073,6 @@ summary {
 
 .client .title {
   text-align: center;
-  font-size: 28px;
-  line-height: 1.18;
   margin-bottom: 30px;
 }
 
@@ -1105,7 +1122,7 @@ summary {
   display: flex;
   justify-content: center;
   height: 90px;
-  color: #757575;
+  color: #AFB1B8;
 }
 
 .client a:hover, .client a:focus {
@@ -1167,8 +1184,6 @@ summary {
   color: #757575;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   text-decoration: none;
 }
 
@@ -1186,7 +1201,6 @@ summary {
   padding-top: 10px;
   color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.43;
   text-transform: uppercase;
 }
@@ -1707,13 +1721,10 @@ summary {
 .projects h3 {
   color: #212121;
   font-weight: 700;
-  font-size: 18px;
   line-height: 2;
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
   font-size: 18px;
-  line-height: 2;
   letter-spacing: 0.06em;
 }
 
