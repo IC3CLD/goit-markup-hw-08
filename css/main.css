@@ -1,56 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-body.modal-open {
-  overflow: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ul {
-  margin: 0 0;
-  padding: 0 0;
-}
-
-img {
-  display: block;
-}
-
-li {
-  list-style-type: none;
-}
-
-img {
-  display: block;
-}
-
-.link {
-  text-decoration: none;
-  color: #212121;
-}
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -317,6 +264,59 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+img {
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+  color: #212121;
 }
 
 .conteiners {
