@@ -87,6 +87,8 @@
 	line-height: 1.7;
 	letter-spacing: 0.01em;
 	color: #757575;
+
+	
 }
 
 .modal-form-input-svg {
@@ -126,6 +128,10 @@
 
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
+	outline: none;
+	&:focus {
+		border: 1px solid #2196f3;
+	}
 
 	&::placeholder {
 		font-family: Roboto;

@@ -1466,6 +1466,11 @@ img {
   margin-bottom: 20px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
+}
+
+.modal-form-text:focus {
+  border: 1px solid #2196f3;
 }
 
 .modal-form-text::placeholder {
