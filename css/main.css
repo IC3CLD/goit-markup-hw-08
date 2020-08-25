@@ -475,7 +475,6 @@ img {
 
 .site-nav .link {
   display: inline-block;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -718,7 +717,6 @@ img {
   margin-left: auto;
   margin-bottom: 30px;
   color: #ffffff;
-  font-family: Roboto;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -845,7 +843,6 @@ img {
 .features .sub-title {
   text-align: center;
   margin-bottom: 10px;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1722,7 +1719,6 @@ img {
   color: #212121;
   font-weight: 700;
   line-height: 2;
-  font-family: Roboto;
   font-style: normal;
   font-size: 18px;
   letter-spacing: 0.06em;
@@ -1730,7 +1726,6 @@ img {
 
 .projects .sub-title {
   color: #757575;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
