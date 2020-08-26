@@ -1379,15 +1379,8 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .modal {
-    top: 208px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .modal {
-    top: 221px;
     min-width: 528px;
     min-height: 581px;
   }
