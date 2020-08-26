@@ -1041,7 +1041,7 @@ img {
   height: 44px;
   background-color: white;
   border-radius: 50%;
-  color: #757575;
+  color: #AFB1B8;
 }
 
 .social-icon-item:hover, .social-icon-item:focus {
@@ -1361,10 +1361,10 @@ img {
 }
 
 .modal {
-  position: absolute;
-  top: 93px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
   padding: 40px;
   width: 450px;
   height: 609px;
